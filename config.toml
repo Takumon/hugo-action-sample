@@ -1,0 +1,20 @@
+title = "Sample"
+description = ""
+hasCJKLanguage = true
+
+theme = "book"
+
+relativeURLs = true
+uglyurls = false
+
+enableEmoji = true
+
+[markup.goldmark.renderer]
+# Markdownファイル内でHTMLタグを有効にする
+unsafe = true
+
+[params]
+# 使用テーマは左メニューエリアに検索窓があるが
+# 本ドキュメントはページ数が少ないため
+# 検索機能は不要と判断し無効にする
+BookSearch = false
